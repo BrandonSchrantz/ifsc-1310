@@ -11,6 +11,14 @@ html {
     box-sizing: inherit;
   }
 
+/*  ---------------Box Sizing-----------------  */
+
+.container {
+    width: 80vw;
+    max-width: 960px;
+    margin: 40px auto;
+}
+
 body {
     font-family: "Oswald", serif;
     font-optical-sizing: auto;
@@ -46,6 +54,7 @@ header.primary {
 
 header.primary h1 {
     font-size: 2.4rem;
+/* top | left and right | bottom */
     margin: 20px 0 0;
 }
 
@@ -60,12 +69,66 @@ header.primary h2 {
     letter-spacing: .2px;
 }
 
-nav.primary {background-color: red;}
+nav.primary {
+    
+}
 
 
-nav.primary ul {}
-nav.primary ul li {}
-nav.primary ul li a {}
+nav.primary ul {
+    padding:0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 960px;
+    margin: 20px auto;
+}
+nav.primary ul li {
+    list-style-type:none;
+}
+nav.primary ul li a {
+    color:white;
+    font-size: .9rem;
+    text-decoration: none;
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 20px 0;
+    transition: .4s;
+}
+
+nav.primary ul li a :hover {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+#content {}
+
+#content h2 {
+    color: blue;
+    border-bottom: 1px dotted darkgray;
+}
+
+#content h3 {
+    color: blue;
+    border-left: 7.5px solid blue;
+    padding: 5px 0 5px 10px;
+}
+
+@media screen and (max-width:440px) {
+  
+    nav.primary ul{
+      flex-direction:column;
+      gap:10px;
+      max-width:200px;
+      margin:20px auto;
+    }
+    
+    nav.primary ul li a{
+      display:block;
+    }
+    
+    
+    
+}
 
 /* Color Theme Swatches in Hex 
 .NEVULA-Enterprise-CI-1-hex { color: #313359; }
