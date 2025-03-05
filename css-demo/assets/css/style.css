@@ -19,6 +19,12 @@ html {
     margin: 40px auto;
 }
 
+/*  ---------------Responsive Images-----------------  */
+
+img {
+    max-width: 100%;
+}
+
 body {
     font-family: "Oswald", serif;
     font-optical-sizing: auto;
@@ -73,7 +79,6 @@ nav.primary {
     
 }
 
-
 nav.primary ul {
     padding:0;
     display:flex;
@@ -82,9 +87,11 @@ nav.primary ul {
     max-width: 960px;
     margin: 20px auto;
 }
+
 nav.primary ul li {
     list-style-type:none;
 }
+
 nav.primary ul li a {
     color:white;
     font-size: .9rem;
@@ -112,6 +119,67 @@ nav.primary ul li a :hover {
     border-left: 7.5px solid blue;
     padding: 5px 0 5px 10px;
 }
+
+#blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+#blog .post {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    font-size: .8rem;
+    border-radius: 4px;
+    transition: .5s;
+    color: #3b638b;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption, time {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-align: center;
+    color: grey;
+    text-shadow: .6rem;
+}
+
+aside[role="complementary"]{
+    background-color: #D9D5D2;
+    padding: 40px;
+  }
+
+aside .container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    color: white;
+}
+
+aside .container a:last-child {
+    color: white;
+    display: block;
+    text-align: right;
+}
+
+aside article footer {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:440px) {
   
