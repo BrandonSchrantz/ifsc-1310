@@ -16,7 +16,7 @@ html {
 .container {
     width: 80vw;
     max-width: 960px;
-    margin: 40px auto;
+    margin:40px auto;
 }
 
 .img-right {
@@ -33,6 +33,8 @@ html {
     margin: 10px 20px 10px 0;
     max-width: 20vw;
 }
+
+/*Ualr logo img*/
 .img-center {
     display: block;
     margin: 10px auto;
@@ -76,7 +78,7 @@ header.primary {
     padding: 40px;
 /* T,R,B,L */
     padding: 20px 40px 20px 40px;
-/* Two Value Top/Bottom / L/R */
+/* Two Value Top/Bottom | L/R */
     padding: 20px 40px;
 }
 
@@ -102,8 +104,8 @@ nav.primary {
 }
 
 nav.primary ul {
-    padding:0;
-    display:flex;
+    padding: 0;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     max-width: 960px;
