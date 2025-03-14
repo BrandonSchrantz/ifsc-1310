@@ -198,6 +198,20 @@ aside article footer {
     display: none;
 }
 
+#colophon{
+    background-color: #313359;
+    background-color: #3B638B;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23172635' fill-opacity='0.2' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    padding:5px;
+    text-align:center;
+    color:#ffffff;
+    font-size:1.2rem;
+    text-shadow:1px 1px #000000;
+  }
+  
+
 #practice h2 {
     color: #3b638b;
     border-bottom:1px dotted #cccccc;
@@ -269,10 +283,10 @@ dd + dt {
 
 #practice blockquote {
     border: 4px double #c0c0c0;
-    padding:20px 40px;
-    margin:40px 80px;
+    padding: 20px 40px;
+    margin: 40px 80px;
     border-radius:30px 0;
-    background-color: #3b638b;
+    background-color: #3F4359;
     color:#fff;
     text-shadow:1px 1px #000;
   }
@@ -284,8 +298,26 @@ dd + dt {
     margin-top: 1rem;
   }
 
+/*Code added*/
+p {
+    text-indent: 50px;
+}
 
+.widget {
+    margin-right: 50px;
+}
 
+#practice ul {
+    background-color: #D9D5D2;
+}
+
+dt:nth-child(2n), dd:nth-child(n + 5) {
+    background-color: #D9D5D2;
+}
+
+dd:nth-child(n + 10) {
+    background-color: #fff;
+}
 
 
 
