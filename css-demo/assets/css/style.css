@@ -298,8 +298,13 @@ dd + dt {
     margin-top: 1rem;
   }
 
-/*Code added/edited by me*/
-p {
+/*Code added/edited by me.*/
+main {
+    width: 100vw;
+    max-width: 1920px;
+}
+
+p:not(.post-content p) {
     text-indent: 50px;
 }
 
