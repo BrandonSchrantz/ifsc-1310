@@ -308,6 +308,12 @@ p:not(.post-content p) {
     text-indent: 50px;
 }
 
+#practice p:nth-child(7) {
+    border: solid 2px #3F4359;
+    border-radius: 20px;
+    padding: 20px;
+}
+
 .widget {
     margin-right: 50px;
 }
@@ -322,6 +328,10 @@ dt:nth-child(2n), dd:nth-child(n + 5) {
 
 dd:nth-child(n + 10) {
     background-color: #fff;
+}
+
+aside {
+    text-shadow: 1px 1px #000;
 }
 
 
