@@ -1,17 +1,26 @@
 body {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 p {
     text-align: left;
+    text-indent: 40px;
 }
 
 header {
     background-image: url("img/space-1.jpg");
+    height: 100px;
 }
 
 h1 {
     color: white;
+}
+
+#first {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
 }
 
 footer p {

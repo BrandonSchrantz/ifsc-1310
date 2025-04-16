@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: auto;
+    margin-top: -20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .heading nav {
+    background: grey;
+    height: 50px;
+  }
+
+  .heading ul {
+    display: flex;
+    justify-content: space-evenly
+  }
+
+  .heading li {
+    display: inline;
+    margin-top: 17px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  #introduction {
+    text-indent: 80px;
+    margin: 0 40px;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(255, 34, 0, 0.872);
+    text-align: center;
+  }
