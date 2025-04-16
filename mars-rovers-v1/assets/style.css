@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+p {
+    text-align: left;
+}
+
+header {
+    background-image: url("img/space-1.jpg");
+}
+
+h1 {
+    color: white;
+}
+
+footer p {
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
