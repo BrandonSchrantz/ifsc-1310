@@ -8,9 +8,8 @@ html {
   }
 
   body {
-    margin: auto;
-    margin-top: -20px;
-    font-family: 'Courier New', Courier, monospace;
+    margin: 0 20px;
+    font-family: 'Lucida Console';
   }
 
   .heading {
@@ -18,6 +17,8 @@ html {
   }
 
   .heading nav {
+    margin: -20px -20px;
+
     background: grey;
     height: 50px;
   }
@@ -35,15 +36,34 @@ html {
     font-size: 20px;
   }
 
-  #introduction {
-    text-indent: 80px;
-    margin: 0 40px;
+  header {
+    margin-top: 50px;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left p {
+    width: 50%;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    left: 50%;
   }
 
   footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: rgba(255, 34, 0, 0.872);
+    margin-left: -20px;
+    background-image: url('img/mars-surface-1.jpg');
+    background-size: 105%;
+    background-position: middle;
     text-align: center;
   }
