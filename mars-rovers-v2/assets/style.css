@@ -7,6 +7,29 @@ html {
     box-sizing: inherit;
   }
 
+  .images-right img {
+    position: relative;
+  }
+
+  
+  #spirit-and-opportunity {
+    position: absolute;
+    bottom: 275px;
+    left: 72%;
+    width: 20%;
+    height: auto;
+    transform: rotate(25deg);
+  }
+
+  #sojourner {
+    position: absolute;
+    bottom: 260px;
+    left: 53%;
+    width: 20%;
+    height: auto;
+    transform: rotate(-25deg);
+  }
+
   body {
     margin: 0 20px;
     font-family: "Space Grotesk", sans-serif;
@@ -46,30 +69,51 @@ html {
     margin-top: 50px;
   }
 
+  .heading p {
+    margin-bottom: 50px;
+  }
+
   .left {
     display: flex;
     flex-direction: column;
-  }
-
-  .left p {
+    color: white;
+    background: black;
+    margin: 0 -20px;
     width: 50%;
+    height: 300px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 20px;
   }
 
   .right {
     display: flex;
     flex-direction: column;
+    background: #e77d11;
+    margin: 0 20px;
     width: 50%;
+    height: 300px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 20px;
     position: relative;
+    top: 50px;
     left: 50%;
   }
 
   footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin-left: -20px;
+    position: relative;
+    bottom: -30px;
+    margin: 0 -20px;
     background-image: url('img/mars-surface-1.jpg');
     background-size: 105%;
     background-position: middle;
     text-align: center;
+  }
+
+  @media screen and (max-width:100px) {
+  
+    .left {
+      right: 300px;
+    }
   }

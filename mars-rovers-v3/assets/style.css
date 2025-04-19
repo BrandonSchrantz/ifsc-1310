@@ -1,0 +1,106 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /*  --------------- Top Nav -----------------  */
+  .top-nav {
+    position: relative;
+    top: -16px;
+    background: grey;
+    height: 50px;
+  }
+
+  .top-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .top-nav li {
+    display: inline;
+    margin: 15px 0;
+  }
+
+  .top-nav li a {
+    text-decoration: none;
+    color: white;
+  }
+  /*  -----------------------------------------  */
+
+  main {
+    margin: 0 20px;
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .left-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 300px;
+    margin: 75px 0;
+    background: black;
+    color: white;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-left: -20px;
+    padding: 20px;
+  }
+
+  .left-text img {
+    height: auto;
+    position: absolute;
+  }
+
+  #spirit-and-opportunity {
+    width: 40%;
+    transform: rotate(25deg);
+    left: 150%;
+  }
+
+  #sojourner {
+    width: 40%;
+    transform: rotate(-25deg);
+    left: 115%;
+    top: 20%;
+  }
+
+  
+  .right-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 300px;
+    margin-left: 52%;
+    background: #e77d11;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 20px;
+  }
+
+  .right-text img {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    right: 150%;
+  }
+
+  footer {
+    text-align: center;
+  }
