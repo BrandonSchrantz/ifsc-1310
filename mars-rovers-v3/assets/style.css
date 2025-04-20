@@ -30,7 +30,9 @@ html {
 
   .top-nav li {
     display: inline;
-    margin: 15px 0;
+    margin: 10px 0;
+    font-size: 24px;
+    align-content: center;
   }
 
   .top-nav li a {
@@ -101,6 +103,28 @@ html {
     right: 150%;
   }
 
+  .full-text {
+    position: relative;
+    top: 75px;
+    height: 300px;
+    background: #d84d11;
+    margin: 0 -20px;
+    padding: 20px;
+    margin-bottom: 75px;
+  }
+
   footer {
+    align-content: center;
+    position: relative;
+    height: 100px;
+    margin: 0 -20px;
     text-align: center;
+    background-image: url('img/mars-surface-1.jpg');
+    background-size: 105%;
+    background-position: middle;
+  }
+
+  @media screen and (max-width:440px) {
+
+    
   }
