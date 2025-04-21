@@ -155,6 +155,16 @@ html {
     line-height: 5px;
   }
 
+  /* FAQ */
+  .faq {
+    bottom: 375px;
+  }
+
+  .faq:nth-child(5) {
+    bottom: 750px;
+    margin-bottom: -50%;
+  }
+
   @media screen and (max-width:440px) {
 
     .left-text {
