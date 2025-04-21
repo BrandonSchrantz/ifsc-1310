@@ -152,6 +152,7 @@ html {
     background-image: url('img/mars-surface-1.jpg');
     background-size: 105%;
     background-position: middle;
+    line-height: 5px;
   }
 
   @media screen and (max-width:440px) {
@@ -209,7 +210,6 @@ html {
     footer {
       align-content: center;
       position: relative;
-      height: 100px;
       margin: 0 -20px;
       text-align: center;
       background-image: url('img/mars-surface-1.jpg');
