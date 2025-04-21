@@ -108,7 +108,7 @@ html {
     flex-direction: column;
     width: 50%;
     height: 300px;
-    margin-left: 52%;
+    margin-left: 51%;
     background: #e77d11;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -143,10 +143,15 @@ html {
     margin-bottom: 75px;
   }
 
+  h4 {
+    text-align: center;
+  }
+
   table {
     display: flex;
     justify-content: left;
     border: 1px solid;
+    border-collapse: collapse;
   }
 
   th {
@@ -168,7 +173,6 @@ html {
     align-content: center;
     position: relative;
     height: 100px;
-    margin: 0 -20px;
     text-align: center;
     background-image: url('img/mars-surface-1.jpg');
     background-size: 105%;
@@ -177,13 +181,55 @@ html {
   }
 
   /* FAQ */
+  #faq-page main {
+    font-size: 18px;
+  }
+
+  #faq-page .left-text:nth-child(2) {
+    height: 200px;
+  }
+
+  #faq-page .full-text {
+    text-align: center;
+    height: 150px;
+  }
+
   .faq {
-    bottom: 375px;
+    height: 200px;
+    bottom: 275px;
+  }
+
+  .faq:nth-child(4) {
+    bottom: 300px;
+    background: #e77d11;
   }
 
   .faq:nth-child(5) {
-    bottom: 750px;
-    margin-bottom: -50%;
+    bottom: 575px;
+    background: black;
+    color: white;
+  }
+
+  .faq:nth-child(6) {
+    bottom: 600px;
+    background: black;
+    color: white;
+  }
+
+  .faq:nth-child(7) {
+    bottom: 875px;
+  }
+
+  .faq:nth-child(8) {
+    bottom: 900px;
+    background: #e77d11;
+  }
+
+  .faq:nth-child(9) {
+    bottom: 1175px;
+    margin-bottom: -75%;
+    background: black;
+    color: white;
   }
 
   /* Contact */
@@ -192,6 +238,20 @@ html {
     border-radius: 25px;
     height: 1000px;
     background: lightgray;
+  }
+
+  /* Mission History */
+  #mission-history-page .right-text {
+    background: #d84d11d3;
+  }
+
+  #mission-history-page .left-text {
+    background: #e77d11;
+  }
+
+  #mission-history-page .right-text:nth-child(4) {
+    background: black;
+    color: white;
   }
 
   @media screen and (max-width:440px) {
