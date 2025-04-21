@@ -143,6 +143,27 @@ html {
     margin-bottom: 75px;
   }
 
+  table {
+    display: flex;
+    justify-content: left;
+    border: 1px solid;
+  }
+
+  th {
+    width: 1000px;
+    text-align: left;
+    border: 1px solid;
+  }
+
+  tr {
+    text-align: right;
+  }
+
+  td {
+    width: 1000px;
+    border: 1px solid;
+  }
+
   footer {
     align-content: center;
     position: relative;
@@ -163,6 +184,14 @@ html {
   .faq:nth-child(5) {
     bottom: 750px;
     margin-bottom: -50%;
+  }
+
+  /* Contact */
+  #contact-page .full-text {
+    margin: -60px 40px 100px 40px;
+    border-radius: 25px;
+    height: 1000px;
+    background: lightgray;
   }
 
   @media screen and (max-width:440px) {
