@@ -70,6 +70,11 @@ html {
     padding: 20px;
   }
 
+  .left-text:nth-child(n + 3) {
+    background: #d84d11d3;
+    color: black;
+  }
+
   .left-text img {
     height: auto;
     position: absolute;
@@ -88,12 +93,13 @@ html {
     top: 20%;
   }
 
-  #curiosity-1 {
-
-  }
-
-  #perseverance-1 {
-
+  #mars-surface-2 {
+    left: 120%;
+    width: 75%;
+    height: 350px;
+    top: -20px;
+    padding: 5px;
+    outline: solid;
   }
   
   .right-text {
@@ -110,10 +116,21 @@ html {
   }
 
   .right-text img {
-    width: 40%;
-    height: auto;
     position: absolute;
     right: 150%;
+  }
+
+  #curiosity-1 {
+    width: 50%;
+    height: auto;
+    bottom: 35%;
+  }
+
+  #perseverance-1 {
+    width: 50%;
+    height: auto;
+    top: 35%;
+    left: -60%;
   }
 
   .full-text {
