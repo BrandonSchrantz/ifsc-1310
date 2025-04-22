@@ -254,6 +254,10 @@ html {
     color: white;
   }
 
+  #mission-history-page td {
+    text-align: left;
+  }
+
   @media screen and (max-width:440px) {
 
     .left-text {
