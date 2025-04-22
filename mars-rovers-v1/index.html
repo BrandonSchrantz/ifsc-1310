@@ -1,33 +1,33 @@
 <!doctype html>
 
-<html>
+<html lang="en">
     <head>
         <title>Mars Rovers</title>
         <meta name="description" content="This is the first draft of an web assignment with content on the mars rovers. This is the home page."/>
         <meta name="author" content="Brandon Schrantz"/>
         <meta charset="UTF-8"/>
+        <meta name="robots" content="noindex"/>
+        <link href="assets/style.css" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
     </head>
     <body>
+        
+        <!-- Top nav -->
+        <nav class="top-nav">
+            <ul>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="mission-history.html">Mission</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
         <main>
-
-            <!-- Heading -->
-            <section>
-                <nav>
-                    <details>
-                        <summary>Rovers</summary>
-                        <a href="curiosity.html">Curiosity</a>
-                        <a href="sojourner.html">Sojourner</a>
-                        <a href="spirit-opportunity.html">Spirit and Opportunity</a>
-                        <a href="perseverance.html">Perseverance</a>
-                    </details>
-                </nav>
+            <section class="heading">
                 <header>
-                    <h1>The Mars Rovers</h1>
+                    <h1>NASA Mars Rovers</h1>
                 </header>
-            </section>
-
-            <!-- Intro par -->
-            <section>
                 <p>What a wonder the reaches of space are. Exspecially the red planet, Mars. Many people have 
                     often wondered what sights that planet has to present, but for the longest time, our eyes 
                     could only get as close to it through a telescopic lense. But curiosity of this world, one 
@@ -37,29 +37,89 @@
                     employ? And what exactly was their target objective?</p>
             </section>
 
-            <!-- General info about rovers -->
-            <section>
+            <section class="left-text">
                 <h2>Meet the Rovers</h2>
                 <p>While there are a number of unmaned robotics that have been sent to mars, in total there 
                     have been five NASA rovers that have landed on this "new" strange world that has only recently been 
                     brought within reach of humanity.</p>
-                <nav>
-                    <ul>
-                        <li><a href="curiosity.html">Curiosity</a></li>
-                        <li><a href="sojourner.html">Sojourner</a></li>
-                        <li><a href="spirit-opportunity.html">Spirit and Opportunity</a></li>
-                        <li><a href="perseverance.html">Perseverance</a></li>
-                    </ul>
-                </nav>
+                <ul>
+                    <li>Spirit</li>
+                    <li>Opportunity</li>
+                    <li>Curiosity</li>
+                    <li>Perseverance</li>
+                    <li>Sojourner</li>
+                </ul>
+                    <img id="spirit-and-opportunity" src="assets/img/spirit-and-opportunity.jpg" alt="Spirit and opportunity data pamphlet."/>
+                    <img id="sojourner" src="assets/img/sojourner.jpg" alt="Sojourner picture."/>
             </section>
 
-            <!-- Footer -->
-            <section>
-                <footer>
-                    <h6>&copy; 2025 All info sourced from: nasa.gov</h6>
-                    <p>This website was created as a student project for educational purposes. NASA is not affiliated with or endorsing this work.</p>
-                </footer>
+            <section class="right-text">
+                <h3>The First Three</h3>
+                <p>While we could talk forever about all the different spacecraftes that have been sent to 
+                    Mars, or at least attempted, the first of the three NASA rovers to navigate 'the red rock' 
+                    is Sojourner, and the Spirit and Opportunity. The Sojourner (pictured in the top left) was 
+                    the frist to touch Mars's surface when it landed on July 4, 1997. It laid the groundwork 
+                    and proof on concept for the following rovers, such as, Spririt and Opportunity (top right) 
+                    which launched within a small window of each other in the summer of 2003. Opportunities 
+                    mission status did not end until 2019 remarkable enough.</p>
+                <img id="curiosity-1" src="assets/img/curiosity-1.jpg" alt="Computer image of the rover Curiosity."/>
+                <img id="perseverance-1" src="assets/img/perseverance-1.jpg" alt="Computer image of the rover Perseverance."/>
             </section>
+
+            <section class="left-text">
+                <h3>The Ones Still Going Strong</h3>
+                <p>But what about the rovers still active on Mars today? We are of course talking about the 
+                    latest of the five to get there successfully, Curiosity and Perseverance. These two have 
+                    the benefit and thanks of the first three rovers in expreience. There mission status is 
+                    active and have overlapping objectives. To learn more, navigate to the "Mission" page 
+                    listed above.</p>
+                <img id="mars-surface-2" src="assets/img/mars-surface-2.jpg" alt="Mars surface."/>
+            </section>
+
+            <section class="full-text">
+                <h4>NASA Rovers</h4>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Sojourner</th>
+                        <th>Spirit</th>
+                        <th>Opportunity</th>
+                        <th>Curiosity</th>
+                        <th>Perseverance</th>
+                    </tr>
+                    <tr>
+                        <th>Launch Date</th>
+                        <td>December 4, 1996</td>
+                        <td>June 10, 2003</td>
+                        <td>July 7, 2003</td>
+                        <td>November 26, 2011</td>
+                        <td>July 20, 2020</td>
+                    </tr>
+                    <tr>
+                        <th>Land Date</th>
+                        <td>July 4, 1997</td>
+                        <td>January 3, 2004</td>
+                        <td>January 4, 2004</td>
+                        <td>August 6, 2012</td>
+                        <td>February 18, 2021</td>
+                    </tr>
+                    <tr>
+                        <th>Mission Status</th>
+                        <td>Inactive</td>
+                        <td>Inactive</td>
+                        <td>Inactive</td>
+                        <td>Active</td>
+                        <td>Active</td>
+                    </tr>
+                </table>
+            </section>
+
         </main>
+
+        <footer>
+            <h6>&copy; 2025 All info sourced from: <a href="https://www.nasa.gov/">nasa.gov</a></h6>
+            <p>This website was created as a student project for educational purposes. NASA is not affiliated with or endorsing this work.</p>
+            <a href="example@example.com" title="Nonfunctioning email link (example).">Report a problem.</a>
+        </footer>
     </body>
 </html>
