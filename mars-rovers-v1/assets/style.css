@@ -283,7 +283,7 @@ html {
     outline: 50px solid;
   }
 
-  @media screen and (max-width:440px) {
+  @media screen and (max-width: 440px) {
 
     .left-text {
       position: relative;

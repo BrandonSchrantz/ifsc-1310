@@ -7,113 +7,371 @@ html {
     box-sizing: inherit;
   }
 
-  .images-right img {
-    position: relative;
-  }
-
-  
-  #spirit-and-opportunity {
-    position: absolute;
-    bottom: 275px;
-    left: 72%;
-    width: 20%;
-    height: auto;
-    transform: rotate(25deg);
-  }
-
-  #sojourner {
-    position: absolute;
-    bottom: 260px;
-    left: 53%;
-    width: 20%;
-    height: auto;
-    transform: rotate(-25deg);
-  }
-
   body {
-    margin: 0 20px;
+    margin: 0;
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
   }
 
+  /*  --------------- Images -----------------  */
+
+  #spirit-and-opportunity {
+    position: relative;
+    width: 40%;
+    transform: rotate(25deg);
+    left: 150%;
+    bottom: 100%;
+  }
+
+  #sojourner {
+    width: 40%;
+    transform: rotate(-25deg);
+    left: 115%;
+    top: 20%;
+  }
+
+  #mars-surface-2 {
+    left: 120%;
+    width: 75%;
+    height: 350px;
+    top: -20px;
+    padding: 5px;
+    outline: solid;
+  }
+
+  #curiosity-1 {
+    width: 50%;
+    height: auto;
+    bottom: 35%;
+  }
+
+  #perseverance-1 {
+    width: 50%;
+    height: auto;
+    top: 35%;
+    left: -60%;
+  }
+
+  /*.left-text img {
+    height: auto;
+    position: absolute;
+  }*/
+
+  /*.right-text img {
+    position: absolute;
+    right: 150%;
+  }*/
+
+  /*  --------------- Top Nav -----------------  */
+  .top-nav {
+    position: relative;
+    top: -16px;
+    background: grey;
+    height: 75px;
+  }
+
+  .top-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .top-nav li {
+    display: inline;
+    font-size: 1.5rem;
+    align-content: center;
+    outline: solid;
+    outline-color: grey;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 15px;
+    background: rgb(236, 235, 235);
+  }
+
+  .top-nav li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  /*  -----------------------------------------  */
+
   .heading {
     text-align: center;
   }
 
-  .heading nav {
-    margin: -20px -20px;
-    background: grey;
-    height: 50px;
-  }
-
-  .heading ul {
-    display: flex;
-    justify-content: space-evenly
-  }
-
-  .heading li {
-    display: inline;
-    margin-top: 17px;
-    font-weight: bold;
-    font-size: 20px;
-  }
-
-  .heading li a {
-    text-decoration: none;
-    color: white;
-  }
-
-  header {
-    margin-top: 50px;
-  }
-
   .heading p {
-    margin-bottom: 50px;
+    margin: 0 20px;
   }
 
-  .left {
+  /*.left-text {
+    position: relative;
     display: flex;
     flex-direction: column;
-    color: white;
-    background: black;
-    margin: 0 -20px;
     width: 50%;
     height: 300px;
+    margin: 75px 0;
+    background: black;
+    color: white;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-left: -20px;
+    padding: 20px;
+  }*/
+
+  .left-text {
+    position: relative;
+    width: 50%;
+    height: 300px;
+    margin: 75px 0;
+    background: black;
+    color: white;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     padding: 20px;
   }
 
-  .right {
+  .left-text:nth-child(n + 3) {
+    background: #d84d11d3;
+    color: black;
+  }
+  
+  /*.right-text {
+    position: relative;
     display: flex;
     flex-direction: column;
-    background: #e77d11;
-    margin: 0 20px;
     width: 50%;
     height: 300px;
+    margin-left: 51%;
+    background: #e77d11;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     padding: 20px;
+  }*/
+
+  .right-text {
     position: relative;
-    top: 50px;
-    left: 50%;
+    width: 50%;
+    height: 300px;
+    margin-left: 50%;
+    background: #e77d11;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 20px;
   }
 
-  footer {
+  .full-text {
     position: relative;
-    bottom: -30px;
+    top: 75px;
+    height: 300px;
+    background: #d84d11;
     margin: 0 -20px;
-    background-image: url('img/mars-surface-1.jpg');
-    background-size: 105%;
-    background-position: middle;
+    padding: 20px;
+    margin-bottom: 75px;
+  }
+
+  h4 {
     text-align: center;
   }
 
-  @media screen and (max-width:100px) {
-  
-    .left {
-      right: 300px;
+  table {
+    display: flex;
+    justify-content: left;
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+
+  th {
+    width: 1000px;
+    text-align: left;
+    border: 1px solid;
+  }
+
+  tr {
+    text-align: right;
+  }
+
+  td {
+    width: 1000px;
+    border: 1px solid;
+  }
+
+  footer {
+    align-content: center;
+    position: relative;
+    height: 100px;
+    text-align: center;
+    background-image: url('img/mars-surface-1.jpg');
+    background-size: 105%;
+    background-position: middle;
+    line-height: 5px;
+  }
+
+  /* FAQ */
+  #faq-page main {
+    font-size: 18px;
+  }
+
+  #faq-page .left-text:nth-child(2) {
+    height: 200px;
+  }
+
+  #faq-page .full-text {
+    text-align: center;
+    height: 150px;
+  }
+
+  .faq {
+    height: 200px;
+    bottom: 275px;
+  }
+
+  .faq:nth-child(4) {
+    bottom: 300px;
+    background: #e77d11;
+  }
+
+  .faq:nth-child(5) {
+    bottom: 575px;
+    background: black;
+    color: white;
+  }
+
+  .faq:nth-child(6) {
+    bottom: 600px;
+    background: black;
+    color: white;
+  }
+
+  .faq:nth-child(7) {
+    bottom: 875px;
+  }
+
+  .faq:nth-child(8) {
+    bottom: 900px;
+    background: #e77d11;
+  }
+
+  .faq:nth-child(9) {
+    bottom: 1175px;
+    margin-bottom: -75%;
+    background: black;
+    color: white;
+  }
+
+  /* Contact */
+  #contact-page .full-text {
+    margin: -60px 40px 100px 40px;
+    border-radius: 25px;
+    height: 1000px;
+    background: lightgray;
+  }
+
+  /* Mission History */
+
+
+
+  /*#mission-history-page .right-text {
+    background: #d84d11d3;
+  }
+
+  #mission-history-page .left-text {
+    background: #e77d11;
+  }
+
+  #mission-history-page .right-text:nth-child(4) {
+    background: black;
+    color: white;
+  }
+
+  #mission-history-page td {
+    text-align: left;
+  }
+
+  #drill {
+    position: absolute;
+    width: 70%;
+    height: auto;
+    left: -700px;
+    bottom: -30px;
+    outline: 5px solid;
+    padding: 5px;
+  }
+
+  #launch {
+    width: 70%;
+    right: -700px;
+    bottom: -10px;
+    outline: 5px solid;
+    padding: 5px;
+  }
+
+  #wheel {
+    width: 70%;
+    left: -700px;
+    bottom: -30px;
+    outline: 50px solid;
+  }*/
+
+  @media screen and (max-width: 440px) {
+
+    .left-text {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      height: 300px;
+      margin: 75px 0;
+      background: black;
+      color: white;
+      padding: 20px;
+    }
+
+    .left-text img {
+      display: flex;
+    }
+
+    #spirit-and-opportunity {
+      width: 40%;
+      transform: rotate(25deg);
+    }
+
+    #sojourner {
+      width: 40%;
+      transform: rotate(-25deg);
+      left: 115%;
+      top: 20%;
+    }
+
+    .right-text {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      height: 300px;
+      background: #e77d11;
+      padding: 20px;
+    }
+
+    .right-text img {
+      display: flex;
+    }
+
+    .full-text {
+      position: relative;
+      top: 75px;
+      height: 300px;
+      background: #d84d11;
+      margin: 0 -20px;
+      padding: 20px;
+      margin-bottom: 75px;
+    }
+
+    footer {
+      align-content: center;
+      position: relative;
+      margin: 0 -20px;
+      text-align: center;
+      background-image: url('img/mars-surface-1.jpg');
+      background-size: 105%;
+      background-position: middle;
     }
   }
