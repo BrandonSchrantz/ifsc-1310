@@ -26,33 +26,63 @@ html {
   }
 
   #sojourner {
+    position: relative;
     width: 40%;
     transform: rotate(-25deg);
-    left: 115%;
-    top: 20%;
+    left: 75%;
+    bottom: 100%;
   }
 
   #mars-surface-2 {
+    position: relative;
     left: 120%;
     width: 75%;
     height: 350px;
-    top: -20px;
+    bottom: 60%;
     padding: 5px;
     outline: solid;
   }
 
   #curiosity-1 {
+    position: relative;
     width: 50%;
     height: auto;
-    bottom: 35%;
+    right: 105%;
+    bottom: 80%;
   }
 
   #perseverance-1 {
+    position: relative;
     width: 50%;
     height: auto;
-    top: 35%;
-    left: -60%;
+    right: 60%;
+    bottom: 110%;
   }
+
+  /*#drill {
+    position: absolute;
+    width: 70%;
+    height: auto;
+    left: -700px;
+    bottom: -30px;
+    outline: 5px solid;
+    padding: 5px;
+  }
+
+  #launch {
+    width: 70%;
+    right: -700px;
+    bottom: -10px;
+    outline: 5px solid;
+    padding: 5px;
+  }
+
+  #wheel {
+    width: 70%;
+    left: -700px;
+    bottom: -30px;
+    outline: 50px solid;
+  }*/
 
   /*.left-text img {
     height: auto;
@@ -286,34 +316,9 @@ html {
 
   #mission-history-page td {
     text-align: left;
-  }
-
-  #drill {
-    position: absolute;
-    width: 70%;
-    height: auto;
-    left: -700px;
-    bottom: -30px;
-    outline: 5px solid;
-    padding: 5px;
-  }
-
-  #launch {
-    width: 70%;
-    right: -700px;
-    bottom: -10px;
-    outline: 5px solid;
-    padding: 5px;
-  }
-
-  #wheel {
-    width: 70%;
-    left: -700px;
-    bottom: -30px;
-    outline: 50px solid;
   }*/
 
-  @media screen and (max-width: 440px) {
+  /*@media screen and (max-width: 440px) {
 
     .left-text {
       position: relative;
@@ -373,5 +378,5 @@ html {
       background-image: url('img/mars-surface-1.jpg');
       background-size: 105%;
       background-position: middle;
-    }
+    }*/
   }
