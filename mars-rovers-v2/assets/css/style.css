@@ -231,7 +231,7 @@ html {
     position: relative;
     height: 100px;
     text-align: center;
-    background-image: url('img/mars-surface-1.jpg');
+    background-image: url('../img/mars-surface-1.jpg');
     background-size: 105%;
     background-position: middle;
     line-height: 5px;
@@ -375,8 +375,8 @@ html {
       position: relative;
       margin: 0 -20px;
       text-align: center;
-      background-image: url('img/mars-surface-1.jpg');
+      background-image: url('../img/mars-surface-1.jpg');
       background-size: 105%;
       background-position: middle;
-    }*/
-  }
+    }
+  }*/
