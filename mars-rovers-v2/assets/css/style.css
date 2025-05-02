@@ -43,56 +43,83 @@ html {
     outline: solid;
   }
 
-  #curiosity-1 {
+  #curiosity-fig {
     position: relative;
-    width: 50%;
-    height: auto;
     right: 105%;
     bottom: 80%;
   }
 
-  #perseverance-1 {
-    position: relative;
-    width: 50%;
-    height: auto;
-    right: 60%;
-    bottom: 110%;
+  #curiosity-fig figcaption {
+    outline: solid;
+    border-radius: 8px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: grey;
+    color: white;
+    font-size: 24px;
+    width: 40%;
   }
 
-  /*#drill {
-    position: absolute;
-    width: 70%;
+  #curiosity-1 {
+    width: 55%;
     height: auto;
-    left: -700px;
-    bottom: -30px;
+  }
+
+  #perseverance-fig {
+    position: relative;
+    right: 65%;
+    bottom: 120%;
+  }
+
+  #perseverance-fig figcaption {
+    outline: solid;
+    border-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: grey;
+    color: white;
+    font-size: 24px;
+    width: 40%;
+    position: absolute;
+    top: -15%;
+    left: 15%;
+    text-align: right;
+    padding-right: 2px;
+  }
+
+  #perseverance-1 {
+    width: 55%;
+    height: auto;
+  }
+
+  #drill {
+    position: relative;
+    width: 70%;
+    right: 90%;
+    bottom: 100%;
     outline: 5px solid;
     padding: 5px;
   }
 
   #launch {
+    position: relative;
+    left: 125%;
+    bottom: 100%;
     width: 70%;
-    right: -700px;
-    bottom: -10px;
     outline: 5px solid;
     padding: 5px;
   }
 
   #wheel {
+    position: relative;
+    right: 90%;
+    bottom: 110%;
     width: 70%;
-    left: -700px;
-    bottom: -30px;
-    outline: 50px solid;
-  }*/
-
-  /*.left-text img {
-    height: auto;
-    position: absolute;
-  }*/
-
-  /*.right-text img {
-    position: absolute;
-    right: 150%;
-  }*/
+    outline-color: black;
+    outline-width: 5px;
+    outline-style: solid;
+    padding: 5px;
+  }
 
   /*  --------------- Top Nav -----------------  */
   .top-nav {
@@ -134,21 +161,6 @@ html {
     margin: 0 20px;
   }
 
-  /*.left-text {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 300px;
-    margin: 75px 0;
-    background: black;
-    color: white;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    margin-left: -20px;
-    padding: 20px;
-  }*/
-
   .left-text {
     position: relative;
     width: 50%;
@@ -165,19 +177,6 @@ html {
     background: #d84d11d3;
     color: black;
   }
-  
-  /*.right-text {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 300px;
-    margin-left: 51%;
-    background: #e77d11;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    padding: 20px;
-  }*/
 
   .right-text {
     position: relative;
@@ -195,7 +194,6 @@ html {
     top: 75px;
     height: 300px;
     background: #d84d11;
-    margin: 0 -20px;
     padding: 20px;
     margin-bottom: 75px;
   }
@@ -240,6 +238,11 @@ html {
   /* FAQ */
   #faq-page main {
     font-size: 18px;
+  }
+
+  #faq-page .left-text {
+    margin-left: -20px;
+    padding-left: 2%;
   }
 
   #faq-page .left-text:nth-child(2) {
@@ -299,9 +302,11 @@ html {
 
   /* Mission History */
 
+  #mission-history-page .heading {
+    margin-bottom: 5%;
+  }
 
-
-  /*#mission-history-page .right-text {
+  #mission-history-page .right-text {
     background: #d84d11d3;
   }
 
@@ -316,7 +321,7 @@ html {
 
   #mission-history-page td {
     text-align: left;
-  }*/
+  }
 
   /*@media screen and (max-width: 440px) {
 
