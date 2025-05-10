@@ -323,6 +323,10 @@ html {
     text-align: left;
   }
 
+  #mission-history-page .full-text p {
+    text-indent: 5%;
+  }
+
   /*@media screen and (max-width: 440px) {
 
     .left-text {
