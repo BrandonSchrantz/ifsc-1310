@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $('.fade').gallery({
+    $('.gallery').slick({
       dots: true,
       infinite: true,
       speed: 500,
@@ -8,9 +8,12 @@ $(document).ready(function() {
       slide: 'div',
       cssEase: 'linear',
       autoplay: true,
-      autoplaySpeed: 2000
-      /*slidesToShow: 2,
-      slidesToScroll: 2*/
+      autoplaySpeed: 2000,
+    });
+
+    $('.gallery-sec').slick({
+      slidesToShow: 2,
+      slidesToScroll: 2
     });
 
 
